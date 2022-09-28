@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <style>
+            table,td
+            {
+              border: 1px solid black;
+              margin-left: auto;
+              margin-right: auto;
+            }
+        </style>
+    </head>
+<body style="text-align:center">
+    <table>
+        <tr>  
+          <td ><a href="audiot.html" target="f2">&lt;audio&gt;</a></td>
+        </tr>
+      </table>
+
+      <hr width="90%" size="5" color="black" />
+
+<img src="adhm.jpg" alt="nee kavithaigala" width="100%" height="400px">
+
+<p style="text-align:center"><strong>Click on the play button to play the music</strong></p>
+
+<audio controls>
+  <source src="ADHM.mp3" type="audio/mp3">
+</audio>
+</body>
+</html>
