@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPERIMENTS</title>
+
+    <style>
+        table,td
+        {
+          border: 1px solid black;
+          margin-left: auto;
+          margin-right: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    
+    <table>
+        <tr>  
+          <td ><a href="imgt.html" target="f2">&lt;img&gt;</a></td>
+          <td ><a href="mapt.html" target="f2">&lt;map&gt;</a></td>
+          <td ><a href="areat.html" target="f2">&lt;area&gt;</a></td>
+        </tr>
+      </table>
+
+      <hr width="90%" size="5" color="black" />
+
+    <img src="solar.jpg" alt="Solar System" usemap="#solarmap" width="100%" height="450" >
+
+    <p>
+        This figure represents the solar system click on each planets to know some facts about them.
+    </p>
+
+   <map name="solarmap">
+     <area shape="rect" coords="71,87,131,117" alt="Mercury" href="mercury.html" target="f1">
+     <area shape="rect" coords="110,129,188,166" alt="Venus" href="venus.html" target="f1">
+     <area shape="rect" coords="148,177,268,236" alt="Earth" href="earth.html" target="f1">
+     <area shape="rect" coords="250,200,338,292" alt="Mars" href="mars.html" target="f1">
+     <area shape="rect" coords="308,250,408,317" alt="Jupiter" href="jupiter.html" target="f1">
+     <area shape="rect" coords="355,189,435,228" alt="Saturn" href="saturn.html" target="f1">
+     <area shape="rect" coords="201,202,2" alt="Uranus" href="uranus.html" target="f1">
+     <area shape="rect" coords="201,202,2" alt="Neptune" href="neptune.html" target="f1">
+   </map>
+
+</body>
+
+</html>
