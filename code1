@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EXPERIMENTS</title>
+</head>
+
+<body>
+       
+    <h1>Definition and Usage</h1>
+
+    <p>
+        
+        The &lt;area&gt; tag defines an area inside an image map (an image map is an image with clickable areas).<br />
+        <br />
+
+        &lt;area&gt; elements are always nested inside a &lt;map&gt; tag. </p>
+        
+    <p>    
+        <h3><strong>NOTE:</strong></h3> <br />
+
+        The usemap attribute in &lt;img&gt; is associated with the &lt;map&gt; element's name attribute, and creates a relationship between the image and the map.
+
+    </p>
+
+</body>
+</html>
